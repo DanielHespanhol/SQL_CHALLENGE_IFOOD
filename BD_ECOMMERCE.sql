@@ -50,12 +50,12 @@ ALTER TABLE stock AUTO_INCREMENT=1;
 
 -- POPULANDO A TABELA stock
 INSERT INTO stock (stock_location, stock_location_uf)
-  values('São Leopoldo', 'RS'),
+  values('São Paulo', 'SP'),
     ('Porto Alegre', 'RS'),
         ('Itajaí', 'SC'),
-        ('Lages', 'SC'),
-        ('Curitiba', 'PR'),
-        ('Maringá', 'PR');
+        ('Santos', 'SP'),
+        ('Ipojuca', 'PE'),
+        ('Manaus', 'AM');
 
 -- CRIAÇÃO DA TABELA product_stock (3/12)
 CREATE TABLE IF NOT EXISTS `ecommerce`.`product_stock` (
